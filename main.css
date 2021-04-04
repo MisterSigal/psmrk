@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+/* main block */
+.main-block {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.main-block_container {
+    display: inline-block;
+    max-width: 1170px;
+}
+
+.main-block_container > .description > img {
+    max-width: 600px;
+    height: auto;
+}
+
+.main-block_container > .description > .description_text {
+    width: 500px;
+    height: 130px;
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+    transform: translateX(-150px);
+    background: #f3cc29;
+    text-align: left;
+    }
+
+    .only {
+        border-left: 4px solid #fff;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 0 0 0 30px;
+    position: absolute;
+    }
+
+.about-right {
+    transform: translateY(-200%);
+    width: 45%;
+    float: right;
+    vertical-align: top;
+}
+
+    
+/*  */
+
+/* order block */
+.order-block {
+    min-height: 430px;
+    background: #3f4053;
+    text-align: center;
+}
+
+.order-block_container {
+    width: 100%;
+    max-width: 1170px;
+    height: 100%;
+    display: inline-block;
+    
+}
+
+.order-block_container > .description {
+    color: #fff;
+    width: 65%;
+    vertical-align: middle;
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+.description_img {
+    width: 35%;
+    float: right;
+}
+
+.casc {
+    height: 250px;
+    float: right;
+    transform: translateY(210px);
+}
